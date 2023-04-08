@@ -1,0 +1,1194 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "海盗听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.tingxiaoshuo.cc/",
+    "bookUrlPattern": "",
+    "customOrder": -2085957779,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "奇幻玄幻::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=6\n都市言情::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=7\n宫频女斗::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=8\n官场商战::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=9\n武侠仙侠::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=10\n侦探推理::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=11\n探险科幻::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=12\n重生穿越::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=13\n恐怖惊悚::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=14\n文学历史::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=15\n两性情感::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=49\n网游竞技::https://www.tingxiaoshuo.cc/listen/apptingchina/categoryList?size=10&page={{page}}&categoryId=50",
+    "header": "{\"Referer\":\"https://app.tingxiaoshuo.cc\"}",
+    "lastUpdateTime": 1664205940614,
+    "loginUi": "",
+    "respondTime": 12366,
+    "ruleBookInfo": {
+      "author": "$.data.bookData.bookName&&$.data.bookData.bookAnchor",
+      "coverUrl": "$.data.bookData.bookImage",
+      "init": "",
+      "intro": "$.data.bookData.bookDesc",
+      "kind": "$.data.bookData.categoryName",
+      "lastChapter": "",
+      "name": "$.data.bookData.bookTitle",
+      "tocUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/chapter?size=50000&page=1&sort=asc&bookId={{$.data.bookData.id}}",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "$.src",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "$.bookAnchor",
+      "bookList": "$.data.list[*]",
+      "bookUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/book?bookId={{$.id}}",
+      "coverUrl": "$.bookImage",
+      "intro": "$.bookDesc",
+      "kind": "$.bookName",
+      "name": "$.bookTitle##\\|.*",
+      "wordCount": "$.heat"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "$.bookAnchor",
+      "bookList": "$.data.bookData[*]",
+      "bookUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/book?bookId={{$.id}}",
+      "checkKeyWord": "大奉打更人",
+      "coverUrl": "$.bookImage",
+      "intro": "$.bookDesc",
+      "kind": "$.bookName",
+      "lastChapter": "",
+      "name": "$.bookTitle",
+      "wordCount": "$.heat"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list[*]",
+      "chapterName": "$.title",
+      "chapterUrl": "https://app.tingxiaoshuo.cc/listen/apptingchina/AppGetChapterUrl2022?uid=1&chapterId={{$.chapterId}}&bookId={{$.bookId}}",
+      "isVolume": "",
+      "updateTime": "$.update_date"
+    },
+    "searchUrl": "https://www.tingxiaoshuo.cc/listen/apptingchina/appSearch?search={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳听神马",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.tingsm.com/",
+    "bookUrlPattern": "https://m.tingsm.com/book/\\d+.html",
+    "customOrder": -31071,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/booklist/1-{{page}}.html\n武侠::/booklist/2-{{page}}.html\n都市::/booklist/3-{{page}}.html\n言情::/booklist/4-{{page}}.html\n科幻::/booklist/5-{{page}}.html\n恐怖::/booklist/6-{{page}}.html\n惊悚::/booklist/7-{{page}}.html\n历史::/booklist/8-{{page}}.html\n军事::/booklist/9-{{page}}.html\n推理::/booklist/10-{{page}}.html\n广播::/booklist/11-{{page}}.html\n儿童::/booklist/12-{{page}}.html\n财经::/booklist/13-{{page}}.html\n评书::/booklist/14-{{page}}.html\n相声::/booklist/15-{{page}}.html\n网游::/booklist/16-{{page}}.html\n诗歌::/booklist/17-{{page}}.html\n戏曲::/booklist/18-{{page}}.html\n粤语::/booklist/19-{{page}}.html\n笑话::/booklist/20-{{page}}.html\n通俗::/booklist/21-{{page}}.html\n讲坛::/booklist/22-{{page}}.html",
+    "lastUpdateTime": 1631095092472,
+    "loginUrl": "",
+    "respondTime": 34908,
+    "ruleBookInfo": {
+      "author": ".info@tag.span.1@text",
+      "coverUrl": "class.bookimg@img@src",
+      "intro": ".book_intro@text",
+      "kind": ".info@tag.span.0@text&&\n.info@tag.span.3@text",
+      "lastChapter": "class.info@tag.span.2@text",
+      "name": ".bookname@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".author@text##.*播音:",
+      "bookList": ".bookbox",
+      "bookUrl": "bookid@js:'https://m.tingsm.com/book/'+result+'.html'",
+      "coverUrl": "img@orgsrc",
+      "intro": ".intro_line@textNodes@js:result.replace(/\\s+/g,'')",
+      "kind": "",
+      "lastChapter": "class.update@text##状态：",
+      "name": "h4@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "#playlist li a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://m.tingsm.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳56听书网③",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.ting56.cc/",
+    "bookUrlPattern": "https://www.ting56.cc/mp3/\\d+.html",
+    "customOrder": -31070,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/list/1-{{page}}.html\n武侠::/list/2-{{page}}.html\n都市::/list/3-{{page}}.html\n言情::/list/4-{{page}}.html\n科幻::/list/5-{{page}}.html\n历史::/list/9-{{page}}.html\n军事::/list/10-{{page}}.html\n推理::/list/6-{{page}}.html\n恐怖::/list/7-{{page}}.html\n惊悚::/list/8-{{page}}.html\n官商::/list/12-{{page}}.html\n儿童::/list/14-{{page}}.html\n穿越::/list/28-{{page}}.html\n娱乐::/list/33-{{page}}.html\n评书::/list/13-{{page}}.html\n相声::/list/16-{{page}}.html\n网游::/list/11-{{page}}.html\n文学::/list/32-{{page}}.html\n其他::/list/15-{{page}}.html\n戏曲::/list/31-{{page}}.html\n笑话::/list/30-{{page}}.html\n粤语::/list/17-{{page}}.html\n通俗::/list/19-{{page}}.html\n讲坛::/list/29-{{page}}.html",
+    "lastUpdateTime": 1635096479218,
+    "loginUrl": "",
+    "respondTime": 37167,
+    "ruleBookInfo": {
+      "author": "class.conlist@ul@tag.p.2@text##播音：",
+      "coverUrl": "class.imgd@src",
+      "intro": "class.introbox@text",
+      "kind": "class.conlist@ul@h1@a@text&&\nclass.conlist@ul@tag.p.0@text&&\nclass.conlist@ul@tag.p.1@text##更新时间：",
+      "lastChapter": "class.conlist@ul@tag.p.4@text##状态：",
+      "name": "class.conlist@ul@h1@text##文/.*"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.imgc@img@src",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "lastChapter": "tag.a.0@href<js>java.ajax('https://www.ting56.cc'+result)</js>class.conlist@ul@tag.p.4@text##状态：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.compress@ul@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://www.ting56.cc/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳中华听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.tingshucn.com",
+    "bookUrlPattern": "https://m.tingshucn.com/book/\\d+.html",
+    "customOrder": -31069,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻网游::/list/1-{{page}}.html\n都市言情::/list/2-{{page}}.html\n仙侠武侠::/list/3-{{page}}.html\n恐怖悬疑::/list/4-{{page}}.html\n穿越同人::/list/5-{{page}}.html\n历史军事::/list/6-{{page}}.html\n刑侦推理::/list/7-{{page}}.html\n社会情感::/list/8-{{page}}.html\n人文社科::/list/9-{{page}}.html\n官场商战::/list/10-{{page}}.html\n其他类别::/list/11-{{page}}.html\n儿童读物::/list/12-{{page}}.html\n幽默笑话::/list/13-{{page}}.html\n健康养生::/list/14-{{page}}.html\n文学名著::/list/15-{{page}}.html\n相声戏剧::/list/16-{{page}}.html\n名家评书::/list/17-{{page}}.html\n职业技能::/list/18-{{page}}.html\n外语学习::/list/19-{{page}}.html\n财经时评::/list/20-{{page}}.html\n 广 播 剧 ::/list/21-{{page}}.html",
+    "lastUpdateTime": 1642245868410,
+    "loginUrl": "",
+    "respondTime": 32220,
+    "ruleBookInfo": {
+      "author": ".info@tag.span.0@text",
+      "coverUrl": "class.bookimg@img@src",
+      "intro": ".book_intro@text",
+      "kind": ".info@tag.span.1@text&&\n.info@tag.span.3@text",
+      "lastChapter": "class.info@tag.span.2@text",
+      "name": ".bookname@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".author@a@text",
+      "bookList": ".bookbox",
+      "bookUrl": "bookid@js:'https://m.tingshucn.com/book/'+result+'.html'",
+      "coverUrl": "img@orgsrc",
+      "intro": ".intro_line@textNodes@js:result.replace(/\\s+/g,'')",
+      "kind": "",
+      "lastChapter": "class.update@text##状态：",
+      "name": "h4@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "#playlist li a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://m.tingshucn.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳听书网①",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://tingbook.cc",
+    "bookUrlPattern": "https://tingbook.cc/show/\\d+.html",
+    "customOrder": -31068,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/book/1<,-{{page}}>.html\n武侠::/book/2<,-{{page}}>.html\n都市::/book/3<,-{{page}}>.html\n言情::/book/4<,-{{page}}>.html\n科幻::/book/5<,-{{page}}>.html\n推理::/book/6<,-{{page}}>.html\n恐怖::/book/7<,-{{page}}>.html\n惊悚::/book/8<,-{{page}}>.html\n历史::/book/9<,-{{page}}>.html\n军事::/book/10<,-{{page}}>.html\n网游::/book/11<,-{{page}}>.html\n官商::/book/12<,-{{page}}>.html\n评书::/book/13<,-{{page}}>.html\n相声::/book/14<,-{{page}}>.html\n文学::/book/15<,-{{page}}>.html\n儿童::/book/16<,-{{page}}>.html\n穿越::/book/28<,-{{page}}>.html\n娱乐::/book/29<,-{{page}}>.html\n笑话::/book/30<,-{{page}}>.html\n戏曲::/book/31<,-{{page}}>.html\n其他::/book/32<,-{{page}}>.html\n讲坛::/book/33<,-{{page}}>.html",
+    "lastUpdateTime": 1640632704047,
+    "respondTime": 23335,
+    "ruleBookInfo": {
+      "author": "tag.p.0@tag.span.0@a@text",
+      "coverUrl": "img.0@src",
+      "init": "class.style-img",
+      "intro": "tag.p.1@text",
+      "kind": "tag.p.2@text&&\ntag.p.0@tag.span.1@text",
+      "lastChapter": "id.yuedu@tag.a.-1@text##.mp3",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h2 span@text",
+      "bookList": ".col-12",
+      "bookUrl": "h2 a@href",
+      "coverUrl": "img@src",
+      "intro": "class.f-gray.1@text",
+      "lastChapter": "",
+      "name": "h2 a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".ul-36@li",
+      "chapterName": "tag.a@text##.mp3",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://tingbook.cc/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳猫耳",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.missevan.com",
+    "customOrder": -31061,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "lastUpdateTime": 1634805889865,
+    "respondTime": 1665,
+    "ruleBookInfo": {
+      "intro": "class.intro-content@text||$.info.sound.intro",
+      "kind": "class.detail-count@text&&class.detail-newest@text&&class.detail-author@text&&class.detail-type@text&&class.detail-tags@text##类型：|标签：无|标签：",
+      "tocUrl": "@js:\nif(baseUrl.match(/dramaapi/)){\nresult='https://www.missevan.com/dramaapi/getdrama?drama_id='+baseUrl.match(/(\\d+)/)[1]\n}"
+    },
+    "ruleContent": {
+      "content": "$.info.sound.soundurl_128||$.info.sound.soundurl"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.username||$.author",
+      "bookList": "<js>\nkey=java.get('key');\npage=java.get('page');\n\n//创建两个空数组\njson=[];json2=[];\n\n//判定json里是否有列表\nif(JSON.parse(result).info.Datas){\njson=JSON.parse(result).info.Datas;}\n\n//加载作者搜索页面并转为json\njson1=JSON.parse(java.ajax('https://www.missevan.com/sound/getsearch?s='+key+'&type=3&page_size=10&p='+page));\n\n//判定json里是否有列表\nif(json1.info.Datas){\njson2=json1.info.Datas\n}\n\n//书名搜索列表与作者搜索列表拼接\nlist=json.concat(json2);\n\nresult=JSON.stringify(list)\n</js>\n$.[*]",
+      "bookUrl": "<js>\nid=String(result).match(/id=(\\d+)/)[1];\nif(!String(result).match(/catalog_name/)){\nresult='https://www.missevan.com/sound/getsound?soundid='+id\n}else{result='https://www.missevan.com/dramaapi/getdrama?drama_id='+id}\n</js>",
+      "coverUrl": "$.front_cover||$.cover",
+      "intro": "$.abstract",
+      "kind": "{$.type_name},{$.catalog_name}##\\{.*?\\}",
+      "lastChapter": "$.newest",
+      "name": "$.soundstr||$.name"
+    },
+    "ruleToc": {
+      "chapterList": "<js>'['+result+']'</js>\n$..info.episodes.episode[*]||$..info.episodes.music[*]||$.[*]",
+      "chapterName": "$.name||$.info.sound.soundstr",
+      "chapterUrl": "https://www.missevan.com/sound/getsound?soundid={{$.sound_id||$.info.sound.id}}"
+    },
+    "searchUrl": "https://www.missevan.com/dramaapi/search?s={{key}}&page={{page}}\n@js:java.put('key',key);java.put('page',page);result",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳中文听书网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.tingzh.com/",
+    "bookUrlPattern": "https://www.tingzh.com/book/\\d+.html",
+    "customOrder": -31058,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/list/1-{{page}}.html\n武侠::/list/2-{{page}}.html\n都市::/list/3-{{page}}.html\n言情::/list/4-{{page}}.html\n科幻::/list/5-{{page}}.html\n历史::/list/9-{{page}}.html\n军事::/list/10-{{page}}.html\n推理::/list/6-{{page}}.html\n恐怖::/list/7-{{page}}.html\n惊悚::/list/8-{{page}}.html\n广播::/list/29-{{page}}.html\n儿童::/list/27-{{page}}.html\n财经::/list/12-{{page}}.html\n评书::/list/13-{{page}}.html\n相声::/list/14-{{page}}.html\n网游::/list/11-{{page}}.html\n诗歌::/list/30-{{page}}.html\n戏曲::/list/34-{{page}}.html\n笑话::/list/31-{{page}}.html\n粤语::/list/33-{{page}}.html\n通俗::/list/32-{{page}}.html\n讲坛::/list/28-{{page}}.html",
+    "lastUpdateTime": 1634721523397,
+    "respondTime": 32801,
+    "ruleBookInfo": {
+      "author": "class.playbox@ul@tag.li.0@tag.div.0@a@text##播 音：",
+      "coverUrl": "class.conbigimg@img@src",
+      "intro": "class.introbox@text",
+      "kind": "class.playbox@ul@tag.li.0@tag.div.1@text&&\nclass.playbox@ul@tag.li.2@tag.div.0@text##更新时间：",
+      "lastChapter": "class.playbox@ul@tag.li.2@tag.div.1@text##更新状态：",
+      "name": "class.playbox@ul@h2@text"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "##\\s|\\n",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@text##作者：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.imgc@img@src",
+      "intro": "",
+      "kind": "tag.p.3@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.imgc@img@src",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "lastChapter": "tag.a.0@href<js>java.ajax('https://www.tingzh.com'+result)</js>class.playbox@ul@tag.li.2@tag.div.1@text##更新状态：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.compress@ul@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://www.tingzh.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-5sing翻唱",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-5singfc",
+    "customOrder": -3533,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "respondTime": 3801,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=5singfc&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-一听",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-1ting",
+    "customOrder": -3531,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "respondTime": 3202,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=1ting&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-酷我",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-kuwo",
+    "customOrder": -3528,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "respondTime": 5292,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=kuwo&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-网易云",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-netease",
+    "customOrder": -3526,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "respondTime": 1535,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=netease&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "音乐",
+    "bookSourceName": "音乐-qq",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://music.liuzhijin.cn-qq",
+    "customOrder": -3525,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "respondTime": 1545,
+    "ruleBookInfo": {},
+    "ruleContent": {},
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.lrc",
+      "name": "$.title@put:{title:$.title,url:$.url}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=[{text:java.get('title'),href:java.get('url')}]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://music.liuzhijin.cn,{\n\"method\": \"POST\",\n\"body\": \"input={{key}}&filter=name&type=qq&page={{page}}\",\n\"headers\": {\"x-requested-with\": \"XMLHttpRequest\"}\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声源",
+    "bookSourceName": "★☆🎧喜马拉雅3.0★☆",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://search.ximalaya.com",
+    "customOrder": -92,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=玄幻&page={{page}}&rows=20&spellchecker=true\n大剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=大剧&page={{page}}&rows=20&spellchecker=true\n仙侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=仙侠&page={{page}}&rows=20&spellchecker=true\n都市::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=都市&page={{page}}&rows=20&spellchecker=true\n经典::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=经典&page={{page}}&rows=20&spellchecker=true\n幻想::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=幻想&page={{page}}&rows=20&spellchecker=true\n武侠::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=武侠&page={{page}}&rows=20&spellchecker=true\n历史小说::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=历史小说&page={{page}}&rows=20&spellchecker=true\n教材::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=教材&page={{page}}&rows=20&spellchecker=true\n多人剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=多人剧&page={{page}}&rows=20&spellchecker=true\n相声::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=相声&page={{page}}&rows=20&spellchecker=true\n外文原版::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=英文原版&page={{page}}&rows=20&spellchecker=true\n名著::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=名著&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=乡村&page={{page}}&rows=20&spellchecker=true\n广播剧::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=广播剧&page={{page}}&rows=20&spellchecker=true\n游戏::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=游戏&page={{page}}&rows=20&spellchecker=true\n无限::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=无限&page={{page}}&rows=20&spellchecker=true\n魔幻::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=魔法&page={{page}}&rows=20&spellchecker=true\n☆                              音              乐                           ☆::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=音乐&page={{page}}&rows=20&spellchecker=true\n乡村::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=乡村&page={{page}}&rows=20&spellchecker=true\n流行::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=流行Top&page={{page}}&rows=20&spellchecker=true\n排行榜::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=榜单&page={{page}}&rows=20&spellchecker=true\n老歌::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=老歌&page={{page}}&rows=20&spellchecker=true\n巅峰榜::http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:2&kw=巅峰榜&page={{page}}&rows=20&spellchecker=true",
+    "lastUpdateTime": 1677319655640,
+    "loginUrl": "",
+    "respondTime": 1590,
+    "ruleBookInfo": {
+      "tocUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "nickname",
+      "bookList": "$.response.docs",
+      "bookUrl": "http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId={$.id}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=1",
+      "coverUrl": "cover_path",
+      "intro": "$..intro",
+      "kind": "category_title",
+      "name": "title@put:{book:id}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "playPathAacv224",
+      "nextTocUrl": "<js>\nvar a = 'http://mobile.ximalaya.com/fmobile-album/album/track/ts-1576706285548?ac=4G&albumId=@get:{book}&device=android&isAsc=true&isQueryInvitationBrand=true&isVideoAsc=true&pageSize=200&source=3&supportWebp=true&pageId=';\nvar r = [];\nfor(var i=1;i<40;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw={{key}}&page={{page}}&rows=20&spellchecker=true",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "发现,搜索链接规则为空,🎧 有声",
+    "bookSourceName": "清沫电台",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.qingmo.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "爱情电台::/listen/aiqingfm<,/page/{{page}}>\n成长电台::/listen/chengzhangfm<,/page/{{page}}>\n温暖电台::/listen/wennuanfm<,/page/{{page}}>\n伤感电台::/listen/zhiyufm<,/page/{{page}}>\n音乐电台::/music-story<,/page/{{page}}>\n广播电台::/guangbodiantai<,/page/{{page}}>\n有声读物::/youshengduwu<,/page/{{page}}>",
+    "lastUpdateTime": 0,
+    "loginUrl": "｡◕‿◕｡",
+    "respondTime": 1182,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.wptao-item@tag.audio@src"
+    },
+    "ruleExplore": {
+      "bookList": "class.postone",
+      "bookUrl": "class.thumbnail@tag.a@href",
+      "coverUrl": "class.thumbnail@tag.img@src@js:result||'http://1t.click/HNK'",
+      "intro": "class.entry-content@text",
+      "kind": "class.tags@tag.a@text",
+      "name": "tag.h2@tag.a@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "tag.h2",
+      "chapterName": "text"
+    },
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳小米听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://mitingshu.com/",
+    "bookUrlPattern": "https://mitingshu.com/mp3/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/books/1<,-{{page}}>.html\n言情::/books/2<,-{{page}}>.html\n都市::/books/3<,-{{page}}>.html\n恐怖::/books/4<,-{{page}}>.html\n惊悚::/books/5<,-{{page}}>.html\n推理::/books/6<,-{{page}}>.html\n武侠::/books/7<,-{{page}}>.html\n历史::/books/8<,-{{page}}>.html\n军事::/books/9<,-{{page}}>.html\n穿越::/books/10<,-{{page}}>.html\n科幻::/books/11<,-{{page}}>.html\n网游::/books/12<,-{{page}}>.html\n评书::/books/13<,-{{page}}>.html\n戏曲::/books/14<,-{{page}}>.html\n笑话::/books/15<,-{{page}}>.html\n儿童::/books/16<,-{{page}}>.html\n财经::/books/17<,-{{page}}>.html\n广播::/books/18<,-{{page}}>.html\n诗歌::/books/19<,-{{page}}>.html\n文学::/books/20<,-{{page}}>.html\n粤语::/books/21<,-{{page}}>.html\n经典::/books/22<,-{{page}}>.html\n小品::/books/23<,-{{page}}>.html\n讲坛::/books/24<,-{{page}}>.html",
+    "lastUpdateTime": 1635096298519,
+    "respondTime": 9854,
+    "ruleBookInfo": {
+      "author": "tag.p.0@tag.span.0@a@text",
+      "coverUrl": "img.0@src",
+      "init": "class.style-img",
+      "intro": "tag.p.1@text",
+      "kind": "tag.p.2@text&&\ntag.p.0@tag.span.1@text",
+      "lastChapter": "id.yuedu@tag.a.-1@text##.mp3",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h2 span@text",
+      "bookList": ".col-12",
+      "bookUrl": "h2 a@href",
+      "coverUrl": "img@src",
+      "intro": "class.f-gray.1@text",
+      "lastChapter": "",
+      "name": "h2 a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".ul-36@li",
+      "chapterName": "tag.a@text##.mp3",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://mitingshu.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳芒果听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.mgting.com/",
+    "bookUrlPattern": "https://www.mgting.com/mp3/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/fenlei/1<,-{{page}}>.html\n言情::/fenlei/2<,-{{page}}>.html\n都市::/fenlei/3<,-{{page}}>.html\n恐怖::/fenlei/4<,-{{page}}>.html\n惊悚::/fenlei/5<,-{{page}}>.html\n推理::/fenlei/6<,-{{page}}>.html\n武侠::/fenlei/7<,-{{page}}>.html\n历史::/fenlei/8<,-{{page}}>.html\n军事::/fenlei/9<,-{{page}}>.html\n穿越::/fenlei/10<,-{{page}}>.html\n科幻::/fenlei/11<,-{{page}}>.html\n网游::/fenlei/12<,-{{page}}>.html\n评书::/fenlei/13<,-{{page}}>.html\n戏曲::/fenlei/14<,-{{page}}>.html\n笑话::/fenlei/15<,-{{page}}>.html\n儿童::/fenlei/16<,-{{page}}>.html\n财经::/fenlei/17<,-{{page}}>.html\n广播::/fenlei/18<,-{{page}}>.html\n诗歌::/fenlei/19<,-{{page}}>.html\n文学::/fenlei/20<,-{{page}}>.html\n粤语::/fenlei/21<,-{{page}}>.html\n经典::/fenlei/22<,-{{page}}>.html\n小品::/fenlei/23<,-{{page}}>.html\n讲坛::/fenlei/24<,-{{page}}>.html",
+    "lastUpdateTime": 1635097016312,
+    "loginUrl": "",
+    "respondTime": 31579,
+    "ruleBookInfo": {
+      "author": "class.conlist@ul@tag.p.2@text##播音：",
+      "coverUrl": "class.imgd@src",
+      "intro": "class.introbox@text",
+      "kind": "class.conlist@ul@h1@a@text&&\nclass.conlist@ul@tag.p.0@text&&\nclass.conlist@ul@tag.p.1@text##更新时间：",
+      "lastChapter": "class.conlist@ul@tag.p.4@text##状态：",
+      "name": "class.conlist@ul@h1@text##文/.*"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.imgc@img@src",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "lastChapter": "tag.a.0@href<js>java.ajax('https://www.mgting.com'+result)</js>class.conlist@ul@tag.p.4@text##状态：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.compress@ul@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://www.mgting.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳听书网②",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.tingshuw.com/",
+    "bookUrlPattern": "https://www.tingshuw.com/mp3/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/book/1<,-{{page}}>.html\n言情::/book/2<,-{{page}}>.html\n都市::/book/3<,-{{page}}>.html\n恐怖::/book/4<,-{{page}}>.html\n惊悚::/book/5<,-{{page}}>.html\n推理::/book/6<,-{{page}}>.html\n武侠::/book/7<,-{{page}}>.html\n历史::/book/8<,-{{page}}>.html\n军事::/book/9<,-{{page}}>.html\n穿越::/book/10<,-{{page}}>.html\n科幻::/book/11<,-{{page}}>.html\n网游::/book/12<,-{{page}}>.html\n评书::/book/13<,-{{page}}>.html\n戏曲::/book/14<,-{{page}}>.html\n笑话::/book/15<,-{{page}}>.html\n儿童::/book/16<,-{{page}}>.html\n财经::/book/17<,-{{page}}>.html\n广播::/book/18<,-{{page}}>.html\n诗歌::/book/19<,-{{page}}>.html\n文学::/book/20<,-{{page}}>.html\n粤语::/book/21<,-{{page}}>.html\n经典::/book/22<,-{{page}}>.html\n小品::/book/23<,-{{page}}>.html\n讲坛::/book/24<,-{{page}}>.html",
+    "lastUpdateTime": 1635097322785,
+    "respondTime": 15184,
+    "ruleBookInfo": {
+      "author": "tag.p.0@tag.span.0@a@text",
+      "coverUrl": "img.0@src",
+      "init": "class.style-img",
+      "intro": "tag.p.1@text",
+      "kind": "tag.p.2@text&&\ntag.p.0@tag.span.1@text",
+      "lastChapter": "id.yuedu@tag.a.-1@text##.mp3",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h2 span@text",
+      "bookList": ".col-12",
+      "bookUrl": "h2 a@href",
+      "coverUrl": "img@src",
+      "intro": "class.f-gray.1@text",
+      "lastChapter": "",
+      "name": "h2 a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".ul-36@li",
+      "chapterName": "tag.a@text##.mp3",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://www.tingshuw.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳易听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.etingshu.com/",
+    "bookUrlPattern": "https://www.etingshu.com/show/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/list/1<,-{{page}}>.html\n言情::/list/2<,-{{page}}>.html\n都市::/list/3<,-{{page}}>.html\n恐怖::/list/4<,-{{page}}>.html\n惊悚::/list/5<,-{{page}}>.html\n推理::/list/6<,-{{page}}>.html\n武侠::/list/7<,-{{page}}>.html\n历史::/list/8<,-{{page}}>.html\n军事::/list/9<,-{{page}}>.html\n穿越::/list/10<,-{{page}}>.html\n科幻::/list/11<,-{{page}}>.html\n网游::/list/12<,-{{page}}>.html\n评书::/list/13<,-{{page}}>.html\n戏曲::/list/14<,-{{page}}>.html\n笑话::/list/15<,-{{page}}>.html\n儿童::/list/16<,-{{page}}>.html\n财经::/list/17<,-{{page}}>.html\n广播::/list/18<,-{{page}}>.html\n诗歌::/list/19<,-{{page}}>.html\n文学::/list/20<,-{{page}}>.html\n粤语::/list/21<,-{{page}}>.html\n经典::/list/22<,-{{page}}>.html\n小品::/list/23<,-{{page}}>.html\n讲坛::/list/24<,-{{page}}>.html",
+    "lastUpdateTime": 1635098141027,
+    "loginUrl": "",
+    "respondTime": 52274,
+    "ruleBookInfo": {
+      "author": "class.playbox@ul@tag.li.0@tag.a.0@text##播音：",
+      "coverUrl": "class.conbigimg@src",
+      "intro": "class.introbox@text",
+      "kind": "class.playbox@ul@tag.li.0@tag.a.1@text&&\nclass.playbox@ul@tag.li.2@tag.div@textNodes##更新时间：",
+      "lastChapter": "class.compress@tag.ul.0@tag.li.-1@a@text##状态：",
+      "name": "class.playbox@ul@h2@text##文/.*"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.imgc@img@src",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "lastChapter": "tag.a.0@href<js>java.ajax('https://www.etingshu.com'+result)</js>class.compress@tag.ul.0@tag.li.-1@a@text##状态：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.compress.0@tag.ul.0@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://www.etingshu.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳馨雨听书网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://xytingshu.com/",
+    "bookUrlPattern": "https://xytingshu.com/book/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/mp3/1<,-{{page}}>.html\n言情::/mp3/2<,-{{page}}>.html\n都市::/mp3/3<,-{{page}}>.html\n恐怖::/mp3/4<,-{{page}}>.html\n惊悚::/mp3/5<,-{{page}}>.html\n推理::/mp3/6<,-{{page}}>.html\n武侠::/mp3/7<,-{{page}}>.html\n历史::/mp3/8<,-{{page}}>.html\n军事::/mp3/9<,-{{page}}>.html\n穿越::/mp3/10<,-{{page}}>.html\n科幻::/mp3/11<,-{{page}}>.html\n网游::/mp3/12<,-{{page}}>.html\n评书::/mp3/13<,-{{page}}>.html\n戏曲::/mp3/14<,-{{page}}>.html\n笑话::/mp3/15<,-{{page}}>.html\n儿童::/mp3/16<,-{{page}}>.html\n财经::/mp3/17<,-{{page}}>.html\n广播::/mp3/18<,-{{page}}>.html\n诗歌::/mp3/19<,-{{page}}>.html\n文学::/mp3/20<,-{{page}}>.html\n粤语::/mp3/21<,-{{page}}>.html\n经典::/mp3/22<,-{{page}}>.html\n小品::/mp3/23<,-{{page}}>.html\n讲坛::/mp3/24<,-{{page}}>.html",
+    "lastUpdateTime": 1635098992996,
+    "loginUrl": "",
+    "respondTime": 13854,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.introbox@text",
+      "kind": "class.conlist@ul@h1@a@text&&\nclass.conlist@ul@tag.p.0@text&&\nclass.conlist@ul@tag.p.1@text##更新时间：",
+      "lastChapter": "class.videourl@tag.li.-1@a@text##状态：",
+      "name": ""
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@text##播音：",
+      "bookList": "class.listBox@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "",
+      "kind": "tag.p.0@text&&\ntag.p.2@text&&\ntag.p.3@text##类型：|时间：|分类：",
+      "name": "h3@a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.1@text##播音：",
+      "bookList": "class.listBox@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "tag.p.0@text&&\ntag.p.2@text&&\ntag.p.3@text##类型：|时间：|分类：",
+      "lastChapter": "h3@href<js>java.ajax('https://xytingshu.com'+result)</js>class.videourl@tag.li.-1@a@text##状态：",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.videourl@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://xytingshu.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳全民听书网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.qmtsw.com/",
+    "bookUrlPattern": "https://www.qmtsw.com/show/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/book/1<,-{{page}}>.html\n言情::/book/2<,-{{page}}>.html\n都市::/book/3<,-{{page}}>.html\n恐怖::/book/4<,-{{page}}>.html\n惊悚::/book/5<,-{{page}}>.html\n推理::/book/6<,-{{page}}>.html\n武侠::/book/7<,-{{page}}>.html\n历史::/book/8<,-{{page}}>.html\n军事::/book/9<,-{{page}}>.html\n穿越::/book/10<,-{{page}}>.html\n科幻::/book/11<,-{{page}}>.html\n网游::/book/12<,-{{page}}>.html\n评书::/book/13<,-{{page}}>.html\n戏曲::/book/14<,-{{page}}>.html\n笑话::/book/15<,-{{page}}>.html\n儿童::/book/16<,-{{page}}>.html\n财经::/book/17<,-{{page}}>.html\n广播::/book/18<,-{{page}}>.html\n诗歌::/book/19<,-{{page}}>.html\n文学::/book/20<,-{{page}}>.html\n粤语::/book/21<,-{{page}}>.html\n经典::/book/22<,-{{page}}>.html\n小品::/book/23<,-{{page}}>.html\n讲坛::/book/24<,-{{page}}>.html",
+    "lastUpdateTime": 1635099013406,
+    "respondTime": 16093,
+    "ruleBookInfo": {
+      "author": "tag.p.0@tag.span.0@a@text",
+      "coverUrl": "img.0@src",
+      "init": "class.style-img",
+      "intro": "tag.p.1@text",
+      "kind": "tag.p.2@text&&\ntag.p.0@tag.span.1@text",
+      "lastChapter": "id.yuedu@tag.a.-1@text##.mp3",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h2 span@text",
+      "bookList": ".col-12",
+      "bookUrl": "h2 a@href",
+      "coverUrl": "img@src",
+      "intro": "class.f-gray.1@text",
+      "lastChapter": "",
+      "name": "h2 a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".ul-36@li",
+      "chapterName": "tag.a@text##.mp3",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://www.qmtsw.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳三五听书网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://ting35.com/",
+    "bookUrlPattern": "https://ting35.com/book/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻::/mp3/1<,-{{page}}>.html\n言情::/mp3/2<,-{{page}}>.html\n都市::/mp3/3<,-{{page}}>.html\n恐怖::/mp3/4<,-{{page}}>.html\n惊悚::/mp3/5<,-{{page}}>.html\n推理::/mp3/6<,-{{page}}>.html\n武侠::/mp3/7<,-{{page}}>.html\n历史::/mp3/8<,-{{page}}>.html\n军事::/mp3/9<,-{{page}}>.html\n穿越::/mp3/10<,-{{page}}>.html\n科幻::/mp3/11<,-{{page}}>.html\n网游::/mp3/12<,-{{page}}>.html\n评书::/mp3/13<,-{{page}}>.html\n戏曲::/mp3/14<,-{{page}}>.html\n笑话::/mp3/15<,-{{page}}>.html\n儿童::/mp3/16<,-{{page}}>.html\n财经::/mp3/17<,-{{page}}>.html\n广播::/mp3/18<,-{{page}}>.html\n诗歌::/mp3/19<,-{{page}}>.html\n文学::/mp3/20<,-{{page}}>.html\n粤语::/mp3/21<,-{{page}}>.html\n经典::/mp3/22<,-{{page}}>.html\n小品::/mp3/23<,-{{page}}>.html\n讲坛::/mp3/24<,-{{page}}>.html",
+    "lastUpdateTime": 1640632359705,
+    "loginUrl": "",
+    "respondTime": 26018,
+    "ruleBookInfo": {
+      "author": "class.conlist@ul@tag.p.2@text##播音：",
+      "coverUrl": "class.imgd@src",
+      "intro": "class.introbox@text",
+      "kind": "class.conlist@ul@h1@a@text&&\nclass.conlist@ul@tag.p.0@text&&\nclass.conlist@ul@tag.p.1@text##更新时间：",
+      "lastChapter": "class.conlist@ul@tag.p.4@text##状态：",
+      "name": "class.conlist@ul@h1@text##文/.*"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "replaceRegex": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.3@text##播音：",
+      "bookList": "class.clist@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.imgc@img@src",
+      "kind": "tag.p.1@text&&\ntag.p.2@text&&\ntag.p.4@text##类型：|时间：",
+      "lastChapter": "tag.a.0@href<js>java.ajax('https://ting35.com'+result)</js>class.conlist@ul@tag.p.4@text##状态：",
+      "name": "tag.p.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.compress@ul@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "https://ting35.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐳 有声 🐳",
+    "bookSourceName": "🐳456听书网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.ting456.com/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻小说::/fenlei/c1<,-{{page}}>.html\n武侠小说::/fenlei/c2<,-{{page}}>.html\n穿越小说::/fenlei/c3<,-{{page}}>.html\n都市小说::/fenlei/c4<,-{{page}}>.html\n言情小说::/fenlei/c5<,-{{page}}>.html\n恐怖小说::/fenlei/c6<,-{{page}}>.html\n惊悚小说::/fenlei/c7<,-{{page}}>.html\n科幻小说::/fenlei/c8<,-{{page}}>.html\n儿童小说::/fenlei/c11<,-{{page}}>.html\n相声有声::/fenlei/c12<,-{{page}}>.html\n百家讲坛::/fenlei/c15<,-{{page}}>.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1640632540518,
+    "loginUrl": "",
+    "respondTime": 30347,
+    "ruleBookInfo": {
+      "author": "class.de_text@tag.li.0@a@text",
+      "coverUrl": "class.de_img@img@src",
+      "intro": "class.de_con@text",
+      "kind": "class.de_text@tag.li.1@text&&\nclass.de_text@tag.li.2@p@text&&\nclass.de_text@tag.li.5@p@text##时间：",
+      "lastChapter": "class.de_text@tag.span.0@text##状态：|更至",
+      "name": "class.de_text@h1@text##有声小说"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.0@text##主演：",
+      "bookList": "class.show_list@li",
+      "bookUrl": "h5@a@href",
+      "coverUrl": "img@src",
+      "kind": "",
+      "name": "h5@a@text"
+    },
+    "ruleSearch": {
+      "author": "h3@tag.a@href<js>java.ajax('http://www.ting456.com'+result)</js>class.de_text@tag.li.0@a@text",
+      "bookList": "class.grid_list@li",
+      "bookUrl": "h3@tag.a@href",
+      "coverUrl": "img@src",
+      "intro": "",
+      "kind": "tag.p.2@text&&\ntag.p.3@text##类型：|更新时间：",
+      "lastChapter": "tag.p.4@span@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mlist@tag.li",
+      "chapterName": "tag.a@text##.mp3",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "http://www.ting456.com/search.php?page={{page}}&searchword={{key}}&searchtype=",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "// Error: Timed out waiting for 180000 ms",
+    "bookSourceGroup": "🐳 有声 🐳,校验超时",
+    "bookSourceName": "🐳六月听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://m.6yueting.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "全部分类::http://m.6yueting.com/ys/t0/o1/p{{page}}\n玄幻奇幻::http://m.6yueting.com/ys/t1/o1/p{{page}}\n修真武侠::http://m.6yueting.com/ys/t2/o1/p{{page}}\n恐怖灵异::http://m.6yueting.com/ys/t3/o1/p{{page}}\n古今言情::http://m.6yueting.com/ys/t4/o1/p{{page}}\n都市言情::http://m.6yueting.com/ys/t28/o1/p{{page}}\n穿越重生::http://m.6yueting.com/ys/t5/o1/p{{page}}\n粤语古仔::http://m.6yueting.com/ys/t6/o1/p{{page}}\n网游小说::http://m.6yueting.com/ys/t7/o1/p{{page}}\n通俗文学::http://m.6yueting.com/ys/t11/o1/p{{page}}\n历史纪实::http://m.6yueting.com/ys/t12/o1/p{{page}}\n军事::http://m.6yueting.com/ys/t13/o1/p{{page}}\n悬疑推理::http://m.6yueting.com/ys/t14/o1/p{{page}}\nebc5系列::http://m.6yueting.com/ys/t18/o1/p{{page}}\n官场商战::http://m.6yueting.com/ys/t15/o1/p{{page}}\n儿童读物::http://m.6yueting.com/ys/t16/o1/p{{page}}\n广播剧::http://m.6yueting.com/ys/t17/o1/p{{page}}\n外文原版::http://m.6yueting.com/ys/t22/o1/p{{page}}\n\n评书大全::http://m.6yueting.com/ys/t8/o1/p{{page}}\n相声小品::http://m.6yueting.com/ys/t9/o1/p{{page}}\n百家讲坛::http://m.6yueting.com/ys/t10/o1/p{{page}}\n健康养生::http://m.6yueting.com/ys/t20/o1/p{{page}}\n教材::http://m.6yueting.com/ys/t21/o1/p{{page}}\n期刊头条::http://m.6yueting.com/ys/t23/o1/p{{page}}\n戏曲::http://m.6yueting.com/ys/t24/o1/p{{page}}\n脱口秀::http://m.6yueting.com/ys/t27/o1/p{{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; PCT-AL10 Build/HUAWEIPCT-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/5.1.8.184 Mobile Safari/537.36 \"\n}",
+    "lastUpdateTime": 1641506913783,
+    "respondTime": 360010,
+    "ruleBookInfo": {
+      "author": "class.desc@class.text.1@text",
+      "coverUrl": "class.book@img@src",
+      "intro": ".book-intro@text",
+      "kind": "",
+      "lastChapter": "class.desc@class.text.3@text",
+      "name": "class.desc@h2@text"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "class.broadcaster@ownText##(\\d+).*万",
+      "bookList": "class.item-link",
+      "bookUrl": "href",
+      "coverUrl": "img@src",
+      "intro": "class.desc@text",
+      "kind": "class.broadcaster@span@text",
+      "name": "h2@textNodes"
+    },
+    "ruleSearch": {
+      "author": "$.broadcaster",
+      "bookList": "$.data.content[*]",
+      "bookUrl": "http://m.6yueting.com/list/{{$.code}}",
+      "coverUrl": "http://img.6yueting.com:20001/{{$.coverUrlLocal}}",
+      "intro": "$.descXx",
+      "kind": "$.author&&$.udate",
+      "name": "$.name##<span style=\"color:red\">|</span>"
+    },
+    "ruleToc": {
+      "chapterList": "class.book-list@a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:'http://m.6yueting.com'+result+',{webView:“true”}'"
+    },
+    "searchUrl": "http://m.6yueting.com/search/index/search?content={{key}}&type=1&pageNum=1&pageSize=40",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声源,发现",
+    "bookSourceName": "5婶🐱",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://5sing.kugou.com",
+    "bookUrlPattern": "",
+    "customOrder": 23,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "热门歌单::/gd/gdList?&type=0&page={{page}}\n最新歌单::/gd/gdList?&type=1&page={{page}}\n流行::/gd/gdList?&tagName=%E6%B5%81%E8%A1%8C&type=1&page={{page}}\n爵士::/gd/gdList?&tagName=%E7%88%B5%E5%A3%AB&page={{page}}\n小清新::/gd/gdList?&tagName=%E5%B0%8F%E6%B8%85%E6%96%B0&page={{page}}\n轻音乐::/gd/gdList?&tagName=%E8%BD%BB%E9%9F%B3%E4%B9%90&page={{page}}\n中国风::/gd/gdList?&tagName=%E4%B8%AD%E5%9B%BD%E9%A3%8E&page={{page}}\n摇滚::/gd/gdList?&tagName=%E6%91%87%E6%BB%9A&page={{page}}\n古风::/gd/gdList?&tagName=%E5%8F%A4%E9%A3%8E&page={{page}}\nDJ::http://5sing.kugou.com/gd/gdList?&tagName=DJ&page={{page}}\n武侠::/gd/gdList?&tagName=%E6%AD%A6%E4%BE%A0&page={{page}}\n最新 ⇨::/yc/list?t=-1&l=&s=&p={{page}}\n原创::/yc/list?t=1&s=&p={{page}}\n⇦ 推荐::/yc/list?t=1&s=&p={{page}}\n华语::/yc/list?t=1&s=&l=华语&p={{page}}\n欧美::/yc/list?t=1&s=&l=欧美&p={{page}}\n日语::/yc/list?t=1&s=&l=日语&p={{page}}\n韩语::/yc/list?t=1&s=&l=韩语&p={{page}}\n俄语::/yc/list?t=1&s=&l=俄语&p={{page}}\n法语::/yc/list?t=1&s=&l=法语&p={{page}}\n德语::/yc/list?t=1&s=&l=德语&p={{page}}\n粤语::/yc/list?t=1&s=&l=粤语&p={{page}}\n闽南语::/yc/list?t=1&s=&l=闽南语&p={{page}}\n方言::/yc/list?t=1&s=&l=方言&p={{page}}\n西班牙语::/yc/list?t=1&s=&l=西班牙语&p={{page}}\n其它语::/yc/list?t=1&s=&l=其它&p={{page}}\n候选::/yc/list?t=2&l=&s=&p={{page}}\n传播榜::/yc/spread/more_1.shtml\n分享榜::/yc/share/more_1.shtml\n\n最新 ⇨::/fc/list?t=-1&l=&s=&p={{page}}\n翻唱::/fc/list?t=1&s=&p={{page}}\n⇦ 推荐::/fc/list?t=1&s=&p={{page}}\n华语::/fc/list?t=1&s=&l=华语&p={{page}}\n欧美::/fc/list?t=1&s=&l=欧美&p={{page}}\n日语::/fc/list?t=1&s=&l=日语&p={{page}}\n韩语::/fc/list?t=1&s=&l=韩语&p={{page}}\n俄语::/fc/list?t=1&s=&l=俄语&p={{page}}\n法语::/fc/list?t=1&s=&l=法语&p={{page}}\n德语::/fc/list?t=1&s=&l=德语&p={{page}}\n粤语::/fc/list?t=1&s=&l=粤语&p={{page}}\n闽南语::/fc/list?t=1&s=&l=闽南语&p={{page}}\n方言::/fc/list?t=1&s=&l=方言&p={{page}}\n西班牙语::/fc/list?t=1&s=&l=西班牙语&p={{page}}\n其它语::/fc/list?t=1&s=&l=其它&p={{page}}\n候选::/fc/list?t=2&l=&s=&p={{page}}\n传播榜::/fc/spread/more_1.shtml\n分享榜::/fc/share/more_1.shtml",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1677319453123,
+    "loginUrl": "",
+    "respondTime": 3339,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.user_tx@tag.img@src",
+      "init": "",
+      "intro": "class.lrc_info_clip@html",
+      "kind": "",
+      "lastChapter": "class.c_wap s_cont@tag.span@text||class.view_info_row@text##,创建.*",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": "class.c_wap tag_box@tag.label@text"
+    },
+    "ruleContent": {
+      "content": "<js>\nvar arr = baseUrl.split('/');\nvar songtype = arr[3];\nvar songid = arr[4].split('.')[0];\nvar data = java.ajax(\"http://service.5sing.kugou.com/song/getSongUrl?version=6.6.70&songid=\" + songid + \"&songtype=\" + songtype);\ndata = JSON.parse(data).data\ndata.squrl || data.hqurl || data.lqurl;\n</js>",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a.1@text||class.m_z@tag.a@text##音乐人：",
+      "bookList": "class.lists@tag.dl||class.album||tag.tr",
+      "bookUrl": "class.l_info@tag.a@href||tag.a@href",
+      "coverUrl": "class.imgbox@tag.img@src||tag.img@src",
+      "intro": "class.info@text",
+      "kind": "class.lcount@text",
+      "lastChapter": "class.l_time@text",
+      "name": "class.l_info@tag.a.0@text||class.jx_name@text",
+      "wordCount": "class.l_rq@text"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "@JSon:$.singer",
+      "bookList": "@JSon:$.list",
+      "bookUrl": "@JSon:$.songurl",
+      "coverUrl": "@js://随机妹子图\n\"https://uploadbeta.com/api/pictures/random/?key=%E6%8E%A8%E5%A5%B3%E9%83%8E\"",
+      "intro": "optComposer&&songWriter##,##🆙词曲:",
+      "kind": "style&&typeName##,##➡️  ",
+      "lastChapter": "createTime",
+      "name": "@JSon:$.songName<js>result</js>@@tag.em@text",
+      "wordCount": "popularityCnt&&originSinger##,##🎵原唱::"
+    },
+    "ruleToc": {
+      "chapterList": "class.dj_detail_lists@tag.li||class.v_list_info@tag.li",
+      "chapterName": "class.s_title@tag.a.0@text||tag.a@text",
+      "chapterUrl": "class.s_title@tag.a.0@href||tag.a@href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "http://search.5sing.kugou.com/home/json?keyword={{key}}&sort=1&page={{page}}&filter=0&type=0",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸 有声",
+    "bookSourceName": "友声",
+    "bookSourceType": 1,
+    "bookSourceUrl": "UAA·有声",
+    "customOrder": 39,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "[{'title':'分类 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'有声小说','url':'https://api.uaa.com/audio/app/audio/search?category=有声小说&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'淫词艳曲','url':'https://api.uaa.com/audio/app/audio/search?category=淫词艳曲&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'激情骚麦','url':'https://api.uaa.com/audio/app/audio/search?category=激情骚麦&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'寸止训练','url':'https://api.uaa.com/audio/app/audio/search?category=寸止训练&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时长 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'短篇','url':'https://api.uaa.com/audio/app/audio/search?duration=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'中篇','url':'https://api.uaa.com/audio/app/audio/search?duration=2&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'长篇','url':'https://api.uaa.com/audio/app/audio/search?duration=3&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'来源 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'原创首发','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25&source=1','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'会员上传','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25&source=2','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'状态 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'已完结','url':'https://api.uaa.com/audio/app/audio/search?finished=1&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'连载中','url':'https://api.uaa.com/audio/app/audio/search?finished=0&page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'时段 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'今日','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&period=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'本周','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&period=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'本月','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&period=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'评分 • 全部','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'＞4','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=4&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞3','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=3&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞2','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=2&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}},\n{'title':'＞1','url':'https://api.uaa.com/audio/app/audio/search?page={{page}}&score=1&size=25','style':{layout_flexGrow:1,layout_flexBasisPercent:0.2}}]",
+    "lastUpdateTime": 1676642188599,
+    "respondTime": 3359,
+    "ruleBookInfo": {
+      "author": "authors",
+      "coverUrl": "coverUrl",
+      "init": "model",
+      "intro": "",
+      "kind": "categories&&updateTime##T.*",
+      "lastChapter": "latestUpdate",
+      "name": "title",
+      "tocUrl": "/audio/app/audio/catalog/{{$.id}}",
+      "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
+    },
+    "ruleContent": {
+      "content": "model.url",
+      "imageStyle": ""
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "authors",
+      "bookList": ".[?(@.title)]",
+      "bookUrl": "/audio/app/audio/intro?id={{$.id}}",
+      "checkKeyWord": "",
+      "coverUrl": "coverUrl",
+      "intro": "",
+      "kind": "categories&&updateTime##T.*",
+      "lastChapter": "latestUpdate",
+      "name": "title",
+      "wordCount": "@js:{{$.finished}}=='0'?'连载':'完结';"
+    },
+    "ruleToc": {
+      "chapterList": ".[?(@.title)]",
+      "chapterName": "title",
+      "chapterUrl": "/audio/app/audio/chapter?id={{$.id}}&viewId=16755023882598961",
+      "isVip": "",
+      "isVolume": "",
+      "preUpdateJs": "",
+      "updateTime": "onlineTime##T.*"
+    },
+    "searchUrl": "https://api.uaa.com/audio/app/audio/search?keyword={{key}}&page={{page}}&size=10",
+    "weight": 0
+  }
+]
