@@ -1,0 +1,42 @@
+[
+  {
+    "customOrder": 1,
+    "enableJs": true,
+    "enabled": true,
+    "singleUrl": true,
+    "sourceGroup": "reader",
+    "sourceIcon": "https://cdn.jsdelivr.net/gh/gedoor/reader@master/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "sourceName": "使用说明",
+    "sourceUrl": "https://source.hashnode.dev/booksource"
+  },
+  {
+    "customOrder": 3,
+    "enableJs": true,
+    "enabled": true,
+    "singleUrl": true,
+    "sourceGroup": "reader",
+    "sourceIcon": "https://media.licdn.com/dms/image/C4D0BAQEyal-DIo6UKA/company-logo_100_100/0/1519911148379?e=2147483647&v=beta&t=-wMFd18IghFo_XbkZsOx7Qo09LN58pj_85Fy3VG6jSY",
+    "sourceName": "坚果云",
+    "sourceUrl": "https://www.jianguoyun.com/d/login"
+  },
+  {
+    "customOrder": 4,
+    "enableJs": true,
+    "enabled": true,
+    "singleUrl": true,
+    "sourceGroup": "reader",
+    "sourceIcon": "",
+    "sourceName": "烏雲净化",
+    "sourceUrl": "reader://import/auto?src=http://yuedu.miaogongzi.net/shuyuan/1125jh.json"
+  },
+  {
+    "customOrder": 5,
+    "enableJs": true,
+    "enabled": true,
+    "singleUrl": true,
+    "sourceGroup": "reader",
+    "sourceIcon": "",
+    "sourceName": "TTS",
+    "sourceUrl": "reader://import/auto?src=https://159236.xyz/tts.json"
+  }
+]
